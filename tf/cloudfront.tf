@@ -41,7 +41,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   #   prefix          = var.domain_name
   # }
 
-  aliases = ["${var.domain_name}"]
+  aliases = ["${var.domain_name}", "www.${var.domain_name}"]
 
   custom_error_response {
     error_caching_min_ttl = 0
