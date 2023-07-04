@@ -1,0 +1,14 @@
+body {
+    background-color: whitesmoke;
+    font-family: verdana;
+  }
+  
+  h1 {
+    color: rgb(10, 10, 10);
+    text-align: left;
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
