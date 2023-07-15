@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './Root.tsx'
-import About from './About.tsx'
-import Home from './Home.tsx'
-import Tech from './Tech.tsx'
+import About from './About/About.tsx'
+import Home from './Home/Home.tsx'
+import Tech from './Tech/Tech.tsx'
 import {
   createBrowserRouter,
   RouterProvider,

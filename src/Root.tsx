@@ -1,4 +1,5 @@
-import Nav from './Nav'
+import Nav from './Nav/Nav'
+import Footer from './Footer/Footer';
 import {
   Outlet,
 } from "react-router-dom";
@@ -12,6 +13,7 @@ function Root() {
       <Nav />
       <h1>Hi! I'm Leaf.</h1>
       <Outlet />
+      <Footer />
     </>
   )
 }
