@@ -15,11 +15,12 @@ function Home() {
 
       <h2>So far</h2>
       <ul>
-        <li>HTML, CSS, react-ts installed with vite, createBrowserRouter</li>
+        <li>HTML, CSS, react-ts installed with vite, createBrowserRouter, used NavLink</li>
         <li>Prettier and ESLint</li>
         <li>S3 hosting with CloudFront</li>
         <li>Custom domain name registration and DNS</li>
         <li>Terraform</li>
+        <li>The leaf logo is from Pixel Perfect on flaticon, with a premium license</li>
       </ul>
 
       <h2>Next</h2>
