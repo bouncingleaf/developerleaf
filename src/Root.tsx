@@ -11,7 +11,6 @@ function Root() {
   return (
     <>
       <Nav />
-      <h1>Hi! I'm Leaf.</h1>
       <Outlet />
       <Footer />
     </>

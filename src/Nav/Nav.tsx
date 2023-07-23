@@ -1,14 +1,15 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import leaf from '../assets/leaf2.png'
 import './Nav.css'
 
 const Nav = () => (
   <div>
-    <ul className='navbar'>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/blog">Blog</Link></li>
-      <li><Link to="/about">About Leaf</Link></li>
-      <li><Link to="/tech">About this site</Link></li>
-    </ul>
+    <nav className='navbar'>
+      <NavLink to="/"><img src={leaf} width="20" alt="leaf" /></NavLink>
+      <NavLink to="/blog">Blog</NavLink>
+      <NavLink to="/about">About Leaf</NavLink>
+      <NavLink to="/tech">About this site</NavLink>
+    </nav>
   </div>
 );
 
