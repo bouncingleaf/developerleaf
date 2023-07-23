@@ -21,8 +21,8 @@ function Home() {
         <li>Custom domain name registration and DNS</li>
         <li>Terraform</li>
         <li>The leaf logo is from Pixel Perfect on flaticon, with a premium license</li>
-        <li>Used this: https://yarnpkg.com/getting-started/editor-sdks#vscode</li>
-        <li>Moved site from S3 to AWS Amplify (will host another site on S3 for the challenge)</li>
+        <li>Used <a href="https://yarnpkg.com/getting-started/editor-sdks#vscode">yarn sdks</a></li>
+        <li>Moved site from S3 to AWS Amplify and back</li>
       </ul>
 
       <h2>Next</h2>
