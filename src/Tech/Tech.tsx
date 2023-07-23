@@ -6,6 +6,13 @@ function Home() {
 
   return (
     <>
+      <h2>About this site</h2>
+      <div className='card'>
+        This is a site I'm developing using the <a href="cloudresumechallenge.dev">Cloud Resume Challenge</a>,
+        partly because it's been a while since I've done any web dev, let alone any that isn't React and Node
+        deployed in Docker containers via Jenkins.
+      </div>
+
       <h2>So far</h2>
       <ul>
         <li>HTML, CSS, react-ts installed with vite, createBrowserRouter</li>
@@ -15,9 +22,17 @@ function Home() {
         <li>Terraform</li>
       </ul>
 
+      <h2>Next</h2>
+      <ul>
+        <li>Unit tests</li>
+        <li>Use GitHub Actions to deploy to S3</li>
+        <li>Improve CSS</li>
+        <li>Move site to actual URL lol</li>
+      </ul>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Clicked on this button {count} {count === 1 ? "time" : "times"}
+          You clicked on this button {count} {count === 1 ? "time" : "times"}
         </button>
       </div>
     </>
