@@ -14,22 +14,14 @@ const About = () => (
       </p>
     </div>
 
-    <h1>Learning stuff</h1>
+    <h2>Other places to find me</h2>
     <div className="card">
-      <p>
-        Here are some of the books I've been reading lately:
-      </p>
       <ul>
-        <li><Link to="https://itrevolution.com/product/the-phoenix-project/">The Phoenix Project</Link> - start here.</li>
-        <li><Link to="https://itrevolution.com/product/the-devops-handbook-second-edition/">The DevOps Handbook</Link> - the practical companion to The Phoenix Project.</li>
-        <li><Link to="https://itrevolution.com/product/team-topologies/">Team Topologies</Link></li>
-        <li><Link to="https://itrevolution.com/product/project-to-product/">Project to Product</Link></li>
-        <li><Link to="https://itrevolution.com/product/accelerate/">Accelerate</Link></li>
-        <li><Link to="https://info.honeycomb.io/observability-engineering-oreilly-book-2022">Observability Engineering</Link> - my handbook right now for working with observability</li>
+        <li><Link to="https://www.linkedin.com/in/jmroy/">LinkedIn</Link></li>
+        <li><Link to="https://www.bouncingleaf.com/">My art site</Link></li>
+        <li><Link to="https://www.instagram.com/bouncingleaf/">Instagram</Link></li>
       </ul>
-      <p>
-        I also highly recommend the videos at <Link to="https://videos.itrevolution.com/">ITRevolution.com</Link> - signup is free and it gets you 10 free videos per month.
-      </p>
+
     </div>
   </div>
 );

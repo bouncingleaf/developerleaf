@@ -1,15 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Root from './Root.tsx'
-import About from './About/About.tsx'
-import Blog from './Blog/Blog.tsx'
-import Home from './Home/Home.tsx'
-import Tech from './Tech/Tech.tsx'
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"
+import About from './About/About.tsx'
+import Blog from './Blog/Blog.tsx'
+import Home from './Home/Home.tsx'
 import './index.css'
+import Resources from './Resources/Resources.tsx'
+import Root from './Root.tsx'
+import Tech from './Tech/Tech.tsx'
 
 
 const router = createBrowserRouter([
@@ -25,12 +26,14 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
-        // loader: teamLoader,
       },
       {
         path: "blog",
         element: <Blog />,
-        // loader: teamLoader,
+      },
+      {
+        path: "resources",
+        element: <Resources />
       },
       {
         path: "tech",
