@@ -1,8 +1,15 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => (
     <div>
         <hr />
-        <em>If you don't like it, that's okay, 'cause we will sing it anyway.</em> -- The Muppets
+        Other places to find me: <BouncingLeaf /> - <Insta />
     </div>
 );
+
+const BouncingLeaf = () => <Link to="https://www.bouncingleaf.com">my art site</Link>
+
+const Insta = () => <Link to="https://www.instagram.com/bouncingleaf/">insta</Link>
+
 
 export default Footer
