@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MultipleNew from "./Posts/MultipleNew";
 import Optimize from "./Posts/Optimize";
 import ThinkingErrors from "./Posts/ThinkingErrors";
@@ -20,6 +21,7 @@ const TOC = () => (
 
 const Blog = () => (
   <div>
+    <p>For more from me, see my <Link to="https://bouncingleaf.medium.com/">Medium</Link> posts.</p>
     <TOC />
     <Optimize />
     <Top />
