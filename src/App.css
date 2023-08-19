@@ -38,3 +38,12 @@
   padding-right: 2em;
   padding-bottom: 2em;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic {
+  padding-right: 2em;
+}

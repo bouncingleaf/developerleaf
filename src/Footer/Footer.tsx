@@ -10,7 +10,6 @@ const Insta = () => <Link to="https://www.instagram.com/bouncingleaf/">Instagram
 
 const Footer = () => (
     <div>
-        <hr />
         Other places to find me: <LI /> - <Medium /> - <BouncingLeaf /> - <Insta />
     </div>
 );

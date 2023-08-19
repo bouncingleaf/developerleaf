@@ -4,16 +4,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
-import About from './About/About.tsx'
-import Blog from './Blog/Blog.tsx'
 import Home from './Home/Home.tsx'
 import './index.css'
-import Resources from './Resources/Resources.tsx'
 import Root from './Root.tsx'
-import Tech from './Tech/Tech.tsx'
 
 
 const router = createBrowserRouter([
+  // I pulled out the router stuff because I was getting permissions errors
+  // and troubleshooting that sounded boring
   {
     path: "/",
     element: <Root />,
@@ -23,23 +21,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
-      {
-        path: "about",
-        element: <About />,
-      },
-      {
-        path: "blog",
-        element: <Blog />,
-      },
-      {
-        path: "resources",
-        element: <Resources />
-      },
-      {
-        path: "tech",
-        element: <Tech />,
-        // loader: teamLoader,
-      },
+      // {
+      //   path: "tech",
+      //   element: <Tech />,
+      //   // loader: teamLoader,
+      // },
     ]
   },
 ]);

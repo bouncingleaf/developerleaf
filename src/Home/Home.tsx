@@ -1,20 +1,46 @@
 import '../App.css'
-import { Link } from 'react-router-dom'
+import picOfLeaf from "../assets/jmrGlasses.jpeg"
+import Footer from '../Footer/Footer'
+import Tech from '../Tech/Tech'
+
+const Pic = () => {
+  return <div className='card'>
+    <img
+      src={picOfLeaf}
+      width="100px"
+      alt="Slightly blurry picture of smiling leaf with glasses and a plaid shirt."
+    />
+  </div>
+}
+
+const About = () => {
+  return <div className='card'>
+    <p>
+      I've been working in technology for 25+ years, and I've been a developer for most of that time. My current title is Application Architect. While I do help dev teams with their application architecture, my passion is making life and work easier and more joyful for my developer colleagues.
+    </p>
+    <p>
+      My current focus is on application and process observability. I'm a huge fan of the systems and organizational aspects of DevOps -- to me, DevOps is the set of collaborative practices for helping deliver value faster and safer. That you get happier dev teams in the process only makes it better.
+    </p>
+    <p>When I'm not staring at a screen, I like to look at birds, walk outside, and listen to audio books or music, sometimes all at once. I also spend a lot of time attaching lines to paper.
+    </p>
+
+  </div>
+
+}
 
 function Home() {
 
   return (
     <>
       <h1>Hi! I'm Leaf.</h1>
-
-      <div className='card'>
-        <p>I'm a developer and application architect, working to make life and work easier for my developer colleagues. </p>
-        <p>
-          I'm developing this site using the <Link to="https://cloudresumechallenge.dev">Cloud Resume Challenge</Link>,
-          partly because it's been a while since I've done any web dev, let alone any that isn't React and Node
-          deployed in Docker containers via Jenkins.
-        </p>
+      <div className="flex">
+        <Pic />
+        <About />
+        <div className="card">
+          <Footer />
+        </div>
       </div>
+      <Tech />
     </>
   )
 }
