@@ -9,7 +9,6 @@ const RecentWork = () => {
       <source src={twpVideo} type="video/mp4" />
       Sorry, looks like your browser doesn't support embedded videos. :(
     </video>
-    <p>I'm happy at my current employer and not looking for new opportunities at this time.</p>
   </div>
 }
 
