@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom"
 import Home from './Home/Home.tsx'
+import Work from './Work/Work.tsx'
 import './index.css'
 import Root from './Root.tsx'
 
@@ -21,11 +22,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
-      // {
-      //   path: "tech",
-      //   element: <Tech />,
-      //   // loader: teamLoader,
-      // },
+      {
+        path: "work",
+        element: <Work />,
+        // loader: teamLoader,
+      },
     ]
   },
 ]);

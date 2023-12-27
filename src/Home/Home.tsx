@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../App.css'
 import picOfLeaf from "../assets/jmrGlasses.jpeg"
 import Footer from '../Footer/Footer'
@@ -21,6 +22,8 @@ const About = () => {
     <p>
       My current focus is on application and process observability. I'm a huge fan of the systems and organizational aspects of DevOps -- to me, DevOps is the set of collaborative practices for helping deliver value faster and safer. That you get happier dev teams in the process only makes it better.
     </p>
+    <p>You can find more details about my work <Link to="work">here</Link> and on <Link to="https://www.linkedin.com/in/jmroy/">LinkedIn</Link>.</p>
+    <p>I'm happy at my current employer and not looking for new opportunities at this time.</p>
     <p>When I'm not staring at a screen, I like to look at birds, walk outside, and listen to audio books or music, sometimes all at once. I also spend a lot of time attaching lines to paper.
     </p>
 
